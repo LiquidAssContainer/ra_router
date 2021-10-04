@@ -1,0 +1,6 @@
+@import url('./reset.css');
+
+body {
+  font-family: 'Mina', sans-serif;
+  word-break: break-word;
+}
