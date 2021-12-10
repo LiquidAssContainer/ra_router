@@ -22,6 +22,10 @@ html {
 
 body {
   font-family: sans-serif;
+  /* background: #260f26; */
+}
+
+#root > div.page {
   background: #260f26;
 }
 
