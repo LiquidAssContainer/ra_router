@@ -9,7 +9,7 @@ export const useJsonFetch = (url, opts) => {
     setLoading(true);
     try {
       const response = await fetch(url, opts);
-      const data = response.json();
+      const data = await response.json();
       setData(data);
     } catch (e) {
       setError(e);
