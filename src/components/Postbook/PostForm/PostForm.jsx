@@ -6,6 +6,9 @@ export const PostForm = ({ data, onFormSubmit, submitBtnText }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    if (!formData.content.trim()) {
+      return;
+    }
     onFormSubmit(formData);
     setFormData(initialFormData);
   };
