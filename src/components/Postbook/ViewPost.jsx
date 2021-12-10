@@ -53,7 +53,7 @@ export const ViewPost = ({
       </button>
       <div className="post_container">
         <header className="post_header">
-          <h3 className="post_author">Курочка</h3>
+          <h3 className="post_author">Курочка Петухова</h3>
           <PostDate date={post.created} />
         </header>
         <div className="post_content">{post.content}</div>

@@ -13,7 +13,6 @@ import { ViewPost } from './ViewPost';
 export const Postbook = ({ match: { url } }) => {
   const history = useHistory();
   const { posts, loading } = useContext(PostsContext);
-  console.log(posts)
 
   const onAddBtnClick = () => {
     history.push('/posts/new');

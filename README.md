@@ -4,7 +4,9 @@
 
 ## Ссылки
 
-[GitHub Pages](https://liquidasscontainer.github.io/ra_router).
+[GitHub Pages (меню)](https://liquidasscontainer.github.io/ra_router).
+
+[GitHub Pages (CRUD)](https://liquidasscontainer.github.io/ra_router/#/posts).
 
 [Репозиторий с backend](https://github.com/LiquidAssContainer/ra_router_backend).
 
